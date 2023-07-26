@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  weatherApiUrl: 'https://api.openweathermap.org/data/2.5/weather?q=Tunisia&appid=c7c2f48ab2bb5254c9720942328e01c9&units=metric',
+  // apikey:"c7c2f48ab2bb5254c9720942328e01c9"
+
+
 };
 
 /*
