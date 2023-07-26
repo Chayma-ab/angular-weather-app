@@ -1,6 +1,6 @@
 :root {
   --blue-1: #3C429E;
-  --blue-2: #4C52AD;
+  --blue-2: #0773c8;
   --yellow-1: #FAC742;
   --white: #FFF;
   --grey-1: #EDEDED;
@@ -17,7 +17,7 @@
 
 }
 
-body{
+/* body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   width: 100%;
@@ -28,6 +28,19 @@ body{
   justify-content: center;
   align-items: center;
 
+} */
+
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222 ;
+  font-family: 'Pacifico', cursive;
+  background-image: url('https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg');
+  background-size: 200%;
+  font-size: 120%;
 }
 
 
